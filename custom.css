@@ -1,0 +1,114 @@
+/* Typographically tinkered IPython Notebook/Jupyter stylesheet
+ * Copyright © 2013--2015 Jiahao Chen <jiahao@mit.edu>
+ * MIT License
+ *
+ * To use, place in ~/.ipython/profile_notebook/static/custom/custom.css
+ * and refresh the page. (The IPython/Jupyter server does not need to be restarted.)
+ *
+ * Based on suggestions from practicaltypography.com
+ *
+ * For best results, install the freely available fonts:
+ *     Charis SIL
+ *     Fira Sans
+ *     Source Code Pro
+ */
+
+.rendered_html ol {
+    list-style:decimal;
+    margin: 1em 2em;
+}
+
+.autosave_status {
+        color: #bbbbbb;
+	font-family: "Fira Sans", sans-serif;
+}
+
+.checkpoint_status {
+        color: #bbbbbb;
+	font-family: "Fira Sans", sans-serif;
+}
+
+.filename {
+font-family: "Charis SIL", "Hoefler Text", Garamond, Palatino, serif;
+font-variant: small-caps;
+letter-spacing: 0.15em;
+}
+
+.dropdown_toggle{
+	line-height: 12px;
+}
+.text_cell {
+    font-family: "Charis SIL", "Hoefler Text", Garamond, Palatino, serif;
+    font-size: 18px;
+    line-height:1.4em;
+    padding-left:3em;
+    padding-right:3em;
+    max-width: 36em;
+    text-rendering: optimizeLegibility;
+}
+
+.text_cell_render {
+    font-family: "Charis SIL", "Hoefler Text", Garamond, Palatino, serif;
+    padding-left:3em;
+    padding-right:3em;
+    max-width: 36em;
+    text-rendering: optimizeLegibility;
+}
+
+.code_cell {  /* Area containing both code and output */
+    font-family: "Source Code Pro", "Droid Sans Mono", Consolas, "Ubuntu Mono", "Liberation Mono", Courier, monospace;
+    background-color:#F1F0FF; /* light blue */
+    border-radius: 0.8em;
+    padding: 1em;
+}
+
+code, pre {
+    font-family: "Source Code Pro", "Droid Sans Mono", Consolas, "Ubuntu Mono", "Liberation Mono", Courier, monospace;
+    line-height:1.25em;
+    font-size: 16px;
+}
+
+.slide-header, p.slide-header
+{
+  color: #498AF3;
+  font-size: 200%;
+  font-weight:bold;
+  margin: 0px 20px 10px;
+  page-break-before: always;
+  text-align: center;
+  }
+
+div.prompt {
+    font-family: "Source Code Pro", "Droid Sans Mono", Consolas, "Ubuntu Mono", "Liberation Mono", Courier, monospace;
+    font-size: 11px;
+}
+
+.CodeMirror {
+    font-family: "Source Code Pro", "Droid Sans Mono", Consolas, "Ubuntu Mono", "Liberation Mono", Courier, monospace;
+    line-height:1.25em;
+    font-size: 16px;
+}
+
+div.output_area pre {
+    font-family: "Source Code Pro", "Droid Sans Mono", Consolas, "Ubuntu Mono", "Liberation Mono", Courier, monospace;
+    line-height:1.25em;
+    font-size: 16px;
+    background-color: #eeeeee;
+}
+
+div.output_error pre {
+    background-color: #ffeeee;
+}
+
+h1 {
+    font-size: 18px;
+    font-variant: small-caps;
+    text-rendering: auto;
+}
+
+blockquote p {
+    font-size: 17px;
+    line-height:1.2em;
+    font-family: "Charis SIL", "Hoefler Text", Garamond, Palatino, serif;
+    text-rendering: optimizeLegibility;
+}
