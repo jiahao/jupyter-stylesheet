@@ -109,7 +109,7 @@ div.output_error pre {
 
 .cm-header-4, .rendered_html h4, .cm-header-5, .rendered_html h5, .cm-header-6, .rendered_html h6 {
     font-family: "Charis SIL", "Hoefler Text", Garamond, Palatino, serif;
-    font-size:18 px;
+    font-size: 18px;
     font-weight: bold;
     text-rendering: optimizeLegibility;
     font-variant-ligatures: contextual no-historical-ligatures common-ligatures;
