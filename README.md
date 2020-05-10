@@ -8,7 +8,7 @@ the legibility of [IPython/Jupyter notebooks](http://ipython.org/notebook.html).
 
 1. For best results install the following fonts on your system:
 
-- [Charis SIL](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=charissil_download)
+- [Charis SIL](http://software.sil.org/charis/download/)
 - [Fira Sans](https://www.mozilla.org/en-US/styleguide/products/firefox-os/typeface/)
 - [Source Code Pro](http://adobe-fonts.github.io/source-code-pro/)
 
