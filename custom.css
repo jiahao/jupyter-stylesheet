@@ -1,9 +1,16 @@
-/* Experimental typographically tinkered IJulia stylesheet
+/* A typographically tinkered Jupyter notebook stylesheet
+ *
  * Copyright © 2013--2015 Jiahao Chen <jiahao@mit.edu>
+ *
  * MIT License
  *
- * To use, place in ~/.ipython/profile_notebook/static/custom/custom.css
- * and refresh the page. (The IPython/Jupyter server does not need to be restarted.)
+ * To use, place in
+ *
+ *     ~/.jupyter/custom/custom.css
+ *
+ * and refresh the page.
+ *
+ * The Jupyter server does not need to be restarted.
  *
  * Based on suggestions from practicaltypography.com
  */
@@ -21,7 +28,10 @@
 .filename {
     font-family: "Charis SIL", "Hoefler Text", Garamond, Palatino, serif;
     font-variant: small-caps;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.08em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
 
 .text_cell, .text_cell_render {
@@ -31,6 +41,8 @@
     padding-left:3em;
     padding-right:3em;
     max-width: 36em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
     font-variant-ligatures: contextual no-historical-ligatures common-ligatures;
 }
@@ -39,6 +51,8 @@ blockquote p {
     font-size: 17px;
     line-height:1.2em;
     font-family: "Charis SIL", "Hoefler Text", Garamond, Palatino, serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
     font-variant-ligatures: contextual no-historical-ligatures common-ligatures;
 }
@@ -89,20 +103,27 @@ div.output_error pre {
     text-rendering: auto;
     letter-spacing: 0.06em;
     font-variant-ligatures: contextual no-historical-ligatures common-ligatures;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
 
 .cm-header-2, .rendered_html h2 {
     font-family: "Charis SIL", "Hoefler Text", Garamond, Palatino, serif;
     font-size: 21px;
     font-weight: bold;
-    text-rendering: optimizeLegibility;
     font-variant-ligatures: contextual no-historical-ligatures common-ligatures;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
 
 .cm-header-3, .rendered_html h3 {
     font-family: "Charis SIL", "Hoefler Text", Garamond, Palatino, serif;
     font-size: 19px;
     font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
     font-variant-ligatures: contextual no-historical-ligatures common-ligatures;
 }
@@ -111,6 +132,8 @@ div.output_error pre {
     font-family: "Charis SIL", "Hoefler Text", Garamond, Palatino, serif;
     font-size: 18px;
     font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
     font-variant-ligatures: contextual no-historical-ligatures common-ligatures;
 }
